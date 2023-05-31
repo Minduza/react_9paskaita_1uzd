@@ -1,0 +1,15 @@
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mainTitle {
+    margin: 4rem 0;
+}
