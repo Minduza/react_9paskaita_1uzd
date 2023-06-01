@@ -1,5 +1,6 @@
 import Button from "../Button/Button";
 import "./Hero.css";
+import PropTypes from "prop-types";
 
 const Hero = ({ title, description }) => {
   return (
@@ -11,6 +12,11 @@ const Hero = ({ title, description }) => {
       </div>
     </div>
   );
+};
+
+Hero.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
 };
 
 export default Hero;

@@ -1,4 +1,5 @@
 import "./Card.css";
+import PropTypes from "prop-types";
 
 const Card = ({ image, alt, title }) => {
   return (
@@ -11,6 +12,12 @@ const Card = ({ image, alt, title }) => {
       </div>
     </div>
   );
+};
+
+Card.propTypes = {
+  image: PropTypes.string,
+  title: PropTypes.string,
+  alt: PropTypes.string,
 };
 
 export default Card;
